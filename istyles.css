@@ -1,0 +1,158 @@
+body {
+    background-color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    color: black;
+    font-size: 30px;
+    font-family: papyrus, copperplate, monospace;
+    text-align: center;
+    border-bottom: 5px solid black;
+    background-color: antiquewhite;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #f1f1f1;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+}
+
+nav>a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#sec>img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+}
+.search input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.sec{
+    background-image: url(/images/foodpic.jpg);
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.sec{
+    align-content: center;
+}
+
+.sec>section{
+    padding: 14px;
+    font-size: 2em;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+#write {
+    margin: 10px;
+    color: black;
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.freshpicks {
+    width: 100%;
+    text-align: center;
+}
+
+.rname {
+    color: gray;
+}
+
+.flexcontainer {
+    display: flex;
+    margin: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexcontainer>div {
+    margin: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    /* height: 100px; */
+    width: 100%;
+    /* text-align: center; */
+    border-radius: 10px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.material-icons{
+    color: #ccc;
+    font-size: 24px;
+}
+
+.material-icons.filled{
+    color: orange;
+}
+
